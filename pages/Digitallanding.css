@@ -1,0 +1,353 @@
+.digitaltop{
+    width: 100%;
+height: 307px;
+flex-shrink: 0;
+background-color:  #D7D7FF;
+clip-path: inset(0 -100vh);
+}
+.full-bleedblog{
+ box-shadow: 0 0 0 100vmax #D7D7FF;
+}
+.full-bleed2{
+    box-shadow: 0 0 0 100vmax #F5F5F5;
+   }
+.headingdigital{
+    color: #000;
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 15px;
+margin-top: 131px;
+}
+.digitalimage1{
+float: right;
+margin-top: 7px;
+margin-right: 15px;
+width: 314px;
+height: 275px;
+flex-shrink: 0;
+}
+.digimidh4{
+    color: #2828C2;
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+margin-top: 56px;
+}
+.digimidh1{
+    color: #100F10;
+text-align: center;
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.digimidp{
+    color: #5B5B5B;
+text-align: center;
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+}
+.digibtn1{
+    width: 162px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+background: #2828C2;
+color: #FFF;
+text-align: center;
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: 2px solid #2828C2;
+margin-top: 25px;
+margin-left: 413px;
+}
+.digibtn1 :hover{
+background-color: #FFF;
+color: #2828C2;
+}
+
+.digibtn2{
+    width: 160px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+border: 1px solid #2828C2;
+color: #000;
+text-align: center;
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+margin-top: 25px;
+margin-left: 13px; 
+}
+.digibtn2 :hover{
+background-color: #2828C2;
+color: #FFF;
+}
+.digiheading1{
+    color: #100F10;
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+margin-top: 97px;
+}
+.digiheading2{
+    color: #2828C2;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.digimidh12{
+    color: #100F10;
+    font-family: Outfit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+margin-top: 34px;
+}
+.digimidp2{
+    color: #000;
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align: left;
+margin-top: 15px;
+}
+.gradesimg{
+    margin-top: 34px;
+}
+.digisec3{
+    height: 588px;
+    background: #F8F8F8;
+    margin-top: 69px;
+}
+.digimidbtn{
+    width: 346px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 50px;
+border: 1px solid #2828C2;
+background-color: transparent;
+color: #2828C2;
+font-family: Outfit;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 42px;
+}
+.digimidbtn :hover{
+ background-color: #2828C2;
+ color: #FFF;   
+}
+.digimidh13{
+    color: #100F10;
+font-family: Outfit;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+margin-bottom: 42px;
+line-height: normal;
+margin-top: 80px;
+}
+.helpimg{
+    width: 465.406px;
+    height: 343.264px;
+    flex-shrink: 0;
+    margin-top: 52px;
+    float: right;
+}
+/* .full-bleedmiddigi{
+    box-shadow: 0 0 0 100vmax #f8f8f8;
+} */
+.middigisec4{
+    margin-top: 100px;
+    margin-bottom: 97px;
+}
+.section2{
+    height: 473px;
+  }
+  .heading2{
+    margin-left: 86px;
+  }
+  .slidingpart{
+    display: grid;
+    place-items: center;
+    margin-top: 84px;
+    
+}
+.slider{
+    height: 119px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.slider::before{
+    left: 0;
+    top: 0;
+}
+.slider::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+.slide-track{
+    display: flex;
+    width: calc(234px * 10);
+    animation: scroll 60s linear infinite;
+}
+.images{
+    /* margin: 32px; */
+    /* padding: 32px; */
+    width: 100%;
+    transition: tranform 1s;
+    
+}
+.images:hover{
+    transform: translateZ(10px);
+}
+.slide{
+    height: 119px;
+    width: 234px;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    perspective: 100px;
+    border-radius: 20px;
+    border: 1.5px solid #E7EAF0;
+    margin-right: 32px;
+}
+@keyframes scroll{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(calc(-234px * 5));
+    }
+}
+.digisec5{
+    height: 547px;
+flex-shrink: 0;
+background: linear-gradient(90deg, #01E4F6 0%, #2828C2 100%);
+}
+.digisec5h1{
+    color: #FFF;
+text-align: center;
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-top: 100px;
+}
+.digisec5h2{
+    color: #FFF;
+text-align: center;
+font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-top: 27px;
+padding-bottom: 65px;
+}
+.readfaqs{
+    width: 162px;
+height: 53px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #2828C2;
+color: #FFF;
+font-family: Outfit;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 570px;
+margin-top: 66px;
+margin-bottom: 74px;
+border: #2828C2 2px solid;
+}
+.columnmid1{
+    padding-left: 170px;
+}
+.enddigimid{
+    width: 100%;
+    height: 1023px;
+    background: #F5F5F5;
+}
+.bookaclassform{
+   margin-left: 60px ;
+}
+.digiendheading1-1{
+    color: #2828C2;
+text-align: center;
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 106px;
+}
+.digiendheading1-2{
+    color: #000;
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.maildigi{
+    margin-top: 97px;
+    margin-bottom: 70px;
+}
+.digilasth2{
+    color: #000;
+font-family: Outfit;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.digilasth2-1{
+    color: #2828C2;
+font-family: Outfit;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.pointsdigi{
+    margin-top: 10px;
+}
+
+
+
+

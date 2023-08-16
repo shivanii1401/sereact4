@@ -1,0 +1,303 @@
+.blogdetailtop{
+    width: 100%;
+height: 307px;
+flex-shrink: 0;
+background-color:  #D7D7FF;
+clip-path: inset(0 -100vh);
+}
+.full-bleedblog{
+ box-shadow: 0 0 0 100vmax #D7D7FF;
+}
+.full-bleed2{
+    box-shadow: 0 0 0 100vmax #F5F5F5;
+   }
+.headingblogdetail{
+    color: #000;
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 15px;
+margin-top: 131px;
+}
+.blogdetailimage1{
+float: right;
+margin-top: 7px;
+margin-right: 15px;
+width: 314px;
+height: 275px;
+flex-shrink: 0;
+}
+
+
+
+.blogdetailsmid{
+    height: 2907px;
+    background-color: #fff;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+.blogdetailsa{
+    color: #626262;
+font-family: Outfit;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 43px;
+}
+.blogdetailsa:hover{
+    color: #2828C2;
+font-family: Outfit;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.vectorgrey{
+    width: 4px;
+height: 8px;
+flex-shrink: 0;
+stroke-width: 1px;
+stroke: #626262;
+}
+.blogg{
+    padding-top: 20px;
+}
+.headingblogdetailsh1{
+    color: #000;
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 43px !important;
+}
+.paramita{
+    width: 70px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 50px;
+margin-top: 20px;
+}
+.paramitaname{
+    color: #000;
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-top: 30px;
+}
+.paramitaseo{
+    color: #AAA;
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 25px;
+padding-bottom: 30px;
+text-align: left;
+}
+.nameparamita{
+    color: #AAA;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 25px;
+    padding-top: 30px;
+}
+.seoparamita{
+    color: #000;
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 30px;
+}
+.mainimgblog{
+    width: 1120px;
+height: 524px;
+flex-shrink: 0;
+border-radius: 15px;
+}
+.leftblogbox{
+    width: 352px;
+height: 352px;
+flex-shrink: 0;
+border-radius: 20px;
+border: 1px solid #E0E0E0;
+
+}
+.leftblogheading{
+    color: #000;
+font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 25px;
+margin-top: 15px;
+}
+.liblog{
+    color: #263238;
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+padding-left: 15px;
+}
+.rightblogbox{
+    width: 740px;
+height: 352px;
+flex-shrink: 0;
+border-radius: 20px;
+border: 1px solid #E0E0E0;
+
+}
+.liliblog{
+    color: #000;
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: left;
+}
+.iconblog:hover{
+    fill: #2828C2;
+}
+.iconblogs{
+   border-radius: 50px;
+   width: 38px;
+height: 38px;
+flex-shrink: 0;
+padding: 5px 5px 5px;
+background-color: #263238;
+border: 2px solid #263238;
+    
+}
+.iconblogs:hover{
+    background-color: #2828C2;
+    border: 2px solid #2828C2;
+}
+.subpblog{
+    color: #000;
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+text-align: justify;
+font-weight: 300;
+line-height: normal;
+padding-left: 20px;
+}
+.headingblogdetailsh1{
+    color: #000;
+font-family: Outfit;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.subpheadingblog{
+    color: #000;
+font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+text-align: left;
+line-height: normal;
+padding-left: 20px;
+}
+.arrows2{
+    width: 107px;
+    height: 48px;
+    flex-shrink: 0;
+    float: right;
+    padding-left:0px;
+    justify-content:center;
+    margin-right:0px;
+    position: relative;
+     padding-top: 35px; 
+    margin-left: 580px; 
+     }
+     .arrowbtn3{
+        margin-left: 410px;
+        margin-top: 30px;
+        
+     }
+     .arrowbtn4{
+        margin-right: 50px;
+        margin-top: 30px;
+     }
+     
+     .blogcards{
+          border-radius: 20px 20px !important;
+            background: #fff;
+             border-color: #fff;
+              box-shadow: none;
+              margin: 5px;
+              margin-top: 0px;
+              margin-bottom: 20px !important;
+              text-align: left;
+              
+    }
+    .cardsblogdetail{
+        margin-left: 150px;
+    }
+    .blogline{
+        width: 1120px;
+    height: 1px;
+    background: #E6E6E8;
+    }
+    .blogcardimg{
+          display: block;
+           border-radius: 20px !important;
+            padding: 2px;
+    }
+    .blogcarddetails{
+        color: #626262;
+        font-family: Outfit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+    }
+    .dateblog{
+        color: #626262;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-top: 5px;
+    }
+    .blogcardheading{
+        color: #000;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px !important;
+    text-align: left;
+    }
+    .blogcarddetails{
+        color: #626262;
+        font-family: Outfit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+    }
+     

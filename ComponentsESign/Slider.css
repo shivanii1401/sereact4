@@ -1,0 +1,322 @@
+
+.slidingpart{
+    display: grid;
+    place-items: center;
+    margin-top: 84px;
+    
+}
+
+
+.slider{
+    height: 119px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.slider::before{
+    left: 0;
+    top: 0;
+}
+
+
+.slider::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+.slide-track{
+    display: flex;
+    width: calc(234px * 10);
+    animation: scroll 60s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+.images11{
+    margin: 32px;
+    padding: 32px;
+    width: 100%;
+    transition: tranform 1s;
+}
+.images11:hover{
+    transform: translateZ(20px);
+}
+.slide11{
+    height: 100% !important;
+    /* height: 119px; */
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+@keyframes scroll{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(calc(-234px * 5));
+    }
+}
+
+.section3{
+    background: #F8F8F8;
+    width: 100%;
+    height: 400px;
+    /* overflow: hidden; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ButtonPartOfSlider{
+    height: 10px !important;
+    
+    margin: 0px !important;
+    padding: 0px !important;
+
+    display: flex;
+    /* justify-content: end; */
+}
+div.arrows{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.carousel-control-prev,.carousel-control-next{
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 0px !important;
+}
+ .ellipse{
+    width: 194px;
+height: 194px;
+flex-shrink: 0;
+border-radius: 50%;
+/* padding-top: 188px; */
+margin-left: 150px;
+margin-top:50px;
+ }
+ .testbtn{
+    background-color:#01E4F6;
+    font-size:50px;
+ }
+ .testimonialpara{
+    padding-right: 86px;
+    /* margin-top: 99px; */
+    color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align: left;
+/* padding-top:199px; */
+ }
+
+ #carouselExampleControls{
+    height: 350px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border: none;
+    border-radius: 0%;
+ }
+.ButtonPartOfSlider{
+    position: absolute;
+    width: 10%;
+    bottom: 26%;
+
+    
+    right: 20%;
+    /* overflow-x: hidden; */
+}
+.arrowbtn1{
+    margin: 0px !important;
+}
+.slide11{
+    border: none;
+    border-radius: 0%;
+}
+ 
+ .client{
+    color: #000;
+font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 30px;
+text-align:left;
+ }
+ .head{
+    color: #2828C2;
+font-family: Outfit;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: left;
+margin-right: 10px;
+ }
+ .vr{
+    width: 1px;
+height: 30px;
+background: #D6D6D6;
+margin-left: -30px;
+ }
+ .axis{
+    margin-top: -40px;
+    margin-left: 1px;
+
+    overflow:hidden;
+ }
+ .arrows{
+width: 107px;
+height: 48px;
+flex-shrink: 0;
+float: right;
+padding-left:0px;
+justify-content:center;
+margin-right:0px;
+position: relative;
+ padding-top: 350px; 
+margin-left: 580px; 
+ }
+ /* .arrowbtn1{
+    margin-left: 590px;
+    
+ }
+ .arrowbtn2{
+    margin-right: 50px;
+ } */
+ .case{
+    color: #000;
+text-align: center;
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+text-align: left;
+margin-right:580px;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/* Keep the existing styles */
+
+/* Adjustments for responsive design */
+@media only screen and (max-width: 480px) {
+
+
+    .images11 {
+        margin: 0px; /* Adjust margins as needed */
+        padding: 0px; /* Adjust padding as needed */
+      border: none !important;
+    }
+
+    .slide11 {
+        padding: 10px; /* Adjust padding as needed */
+    }
+
+    .section3 {
+        height: auto; /* Adjust height as needed */
+    }
+
+    .ellipse {
+        width: 100px;
+        height: 100px; 
+        margin-left: 0; 
+        margin-top: 30px; 
+    }
+.MainImage{
+    height: 10px !important;
+}
+    .testimonialpara {
+        padding-right: 0px; 
+        font-size: 10px; /* Adjust font size as needed */
+        text-align: start !important;
+        padding: 0px !important;
+        margin-top: 10px !important;
+    }
+
+
+    .arrows {
+        width: 80px; /* Adjust width as needed */
+        height: 36px; /* Adjust height as needed */
+        /* padding-top: 200px;  */
+        /* margin-left: 250px;  */
+    }
+ 
+    .client{
+     
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    
+    /* margin-top: 0px !important; */
+    /* text-align:left; */
+    margin: 0px !important;
+     }
+     .head{
+      
+    
+    font-size: 12px;
+    
+    font-weight: 100;
+
+    text-align: left;
+    margin-right: 0px !important;
+     }
+     .vr{
+        width: 0px;
+    height: 30px;
+    background: #D6D6D6;
+    margin-left: -30px;
+     }
+     .axis{
+        margin-top: -40px;
+        margin-left: 1px;
+    
+        overflow:hidden;
+     }
+     
+    /* Add any additional adjustments for responsiveness */
+#carouselExampleControls{
+ padding: 2px !important;
+}
+}

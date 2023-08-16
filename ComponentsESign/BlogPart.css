@@ -1,0 +1,100 @@
+.BlogPartTextAlign{
+text-align: start !important;
+
+}
+
+.ViewMoreBlogButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LastViewMoreButtonBlog{
+    margin: 60px 0px 10px 0px  !important;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .BlogPartTextAlign {
+        text-align: center !important;
+    }
+
+    .LastViewMoreButtonBlog {
+        margin: 30px 0px 10px 0px !important;
+    }
+
+    .section9 {
+        width: 100% !important;
+        /* background-color: red !important;  */
+        /* height: 1350px !important; */
+        min-height: 1350px !important;
+        max-height: auto !important;
+    }
+
+    .MainHeadingofBlog {
+        font-size: 15px !important;
+        margin-top: 10px !important;
+        padding: 0px !important;
+    }
+
+    .MainDivBoxesOfBlogs {
+        padding: 0px !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    /* Modify the card styles */
+    .card {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        padding: 5px;
+    }
+
+    .LastDivBoxOfBlog{
+        margin: 0px !important;
+    }
+
+    .LastDivBoxOfBlogParent{
+        margin: 10px 0px 0px 0px  !important;
+        padding: 0px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .CardSizeForBlogsDiv{
+        width: 90% !important; 
+        border: 1px solid #ccc !important;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important;
+        
+    }
+    .CardSizeForBlogsDiv:hover{
+        
+        /* border: 1px solid #4400ff !important; */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6) !important;
+        
+    }
+    
+}
+.LastViewMoreButtonBlog:hover{
+    border: 1px solid #ccc !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important;
+
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) { 
+
+    .section9 {
+        width: 100% !important;
+        min-height: 1450px !important;
+        max-height: auto !important;
+    }
+}

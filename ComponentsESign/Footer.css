@@ -1,0 +1,67 @@
+.FooterLogoTagLine{
+text-align: start;
+}
+
+p .Copyright{
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+
+
+@media only screen and (max-device-width: 480px) {
+
+.MainFooterDiv{
+width: 100% !important;
+}
+
+.MainFooterDivChild1{
+width: 100% !important;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center !important;
+padding-top: 10px;
+}
+.headline {
+margin: 0px !important;
+}
+
+.FooterLogoTagLine{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.FooterLogoTagLine br{
+display: none;
+}
+.MainFooterDivChild2{
+width: 50% !important;
+
+}
+.MainFooterDivChild3{
+    width: 50% !important;
+    
+}
+.MainFooterDivChild4{
+    width: 50% !important;
+    
+}
+.MainFooterDivChild5{
+    /* width: 50% !important; */
+width: 100px !important;
+}
+.MainFooterDiv{
+    display: flex !important;
+ 
+    margin: 0px !important;
+    /* height: auto !important; */
+    width: 100% !important;
+}
+.FooterLogoTagLine1{
+text-align: start !important;
+}
+
+.SocialIconsOfFooter{
+display: flex;
+}
+}

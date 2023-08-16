@@ -1,0 +1,37 @@
+.popup{
+    width: 992px;
+height: 824px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 10px 10px 0px #5D5D5D;
+margin-top: 20px;
+margin-bottom: 20px;
+padding-top: 20px;
+}
+.popupimg1{
+    width: 40.8px;
+    height: 49.743px;
+    flex-shrink: 0;
+ 
+}
+.popuph1{
+    color: #000;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.popupimg2{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    float: right;
+}
+.popsec{
+margin-top: 20px;
+    height: 60px;
+    flex-shrink: 0;
+ background-color: #D9D9D9;
+}

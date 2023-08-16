@@ -1,0 +1,943 @@
+
+ 
+/* Default Design */
+.gfg-div {
+ 
+    /* To make all elements center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    /* Default Styling */
+    margin: 20px auto;
+    padding: 30px;
+    font-size: 30px;
+    width: 300px;
+    height: 300px;
+    background-color: darkseagreen;
+    color: black;
+}
+ 
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) { 
+
+    .section1{
+        height: auto;
+    }
+    .navigation{
+        height: 85px;
+    }
+    .logo{
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 50px;
+    height: 55px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    }
+    h1{
+        margin-top: 30px !important;
+        font-size: 14px !important;
+        text-align: center !important;
+        padding-top: 20px !important;
+    }
+
+
+
+    p{
+        margin-bottom: 0px;
+        font-size: 10px;
+        text-align: center !important;
+    }
+
+
+
+
+
+    .Section1Button{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+
+.image1{
+    height: 70%;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.FirstDivFirstSection{
+    height: 10%;
+}
+
+
+    .btn1 , .btn2{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+    /* section2 */
+    .section2{
+        height: auto;
+    }
+    .heading2{
+        margin-left: 0px !important;
+        text-align: center !important;
+        margin-top: 2px !important;
+    }
+    
+.SliderInHome{
+    height: 100px !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+    
+    .slider{
+        height: 99px;
+        width: 90%;
+    }
+    .images{
+        width: 100%;
+        transition: tranform 2s;
+    }
+    .images:hover{
+        transform: translateZ(5px);
+    }
+    .slide{
+        height: 59px;
+        width: 100px;
+        margin-right: 15px;
+    }
+   
+  /* section-4 */
+  .section4{
+    width: 100%;
+    height: auto;
+}
+.section4 h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-left{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 10px;
+padding-bottom: 10px;
+}
+.box-right{
+  width: auto;
+height: auto;
+/* margin-top: 25px;
+padding-left: 10px !important;
+padding-bottom: 10px !important; */
+margin-top: 0px !important;
+margin-left: 0px !important;
+padding-left: 10px !important;
+padding-bottom: 10px !important;
+/* padding-left: 10px;
+padding-bottom: 10px; */
+margin-bottom: 10px !important;
+}
+.RightBox{
+/* display: flex !important; */
+align-items: center !important;
+justify-content: center !important;
+}
+.leftp{
+font-size: 12px;
+
+}
+
+
+
+
+
+
+/* section5 */
+.section5{
+    height: auto;
+    width: auto;
+    
+}
+.section5 h1{
+    margin-top: 86px;
+}
+.section5 p{
+    margin-top: 19px;
+    margin-bottom: 50px;
+}
+
+.Sec5fIRSTHeading{
+    margin: 2px !important;
+}
+
+.Sec5fIRSTPara{
+    margin: 0px !important;
+}
+.sec5card{
+    width: auto;
+height: 310px;
+flex-shrink: 0;
+border-radius: 25px;
+border: 2px solid #59C9D2;
+background: #000075;
+margin-bottom: 20px;
+}
+.sec5card h3, p{
+    color: #fff;
+    text-align: center;
+}
+.sec5card h3{
+    margin-top:48px ;
+    padding: 2px !important;
+}
+.sec5card p{
+    padding: 2px !important;
+    margin-top:5px ;
+    font-size: 14px;
+}
+.sec5subcard{
+    width: 255px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+margin: 2px !important;
+
+}
+.ParentSub5SubCard{
+padding-right: 0px !important;
+}
+.sqr{
+    width: 40px;
+height: 45px;
+/* flex-shrink: 0; */
+border-radius: 10px;
+background: #2828C2;
+margin-top: 5px !important;
+/* padding: 10px; */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sec5subcard h6{
+   text-align: center;
+   
+   margin-top: 10px !important;
+   font-weight: 600;
+   font-size: 13px;
+}
+.sec5btn{
+    width: 169px;
+height: 53px;
+
+border-radius: 50px;
+background: #FFF;
+color: #2828C2;
+font-family: Outfit;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 10px;
+margin-bottom: 10px !important;
+border: #fff 1px solid;
+
+}
+
+.heading2sec5{
+    padding-top: 20px;
+    color: #FFF;
+}
+
+
+
+.Section5Para{
+    margin-bottom: 20px !important;
+}
+
+
+
+  
+  
+
+    
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) { 
+
+    .section1{
+        height: auto;
+    }
+    .navigation{
+        height: 90px;
+    }
+    .logo{
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 50px;
+    height: 55px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    }
+    h1{
+        margin-top: 10px !important;
+        font-size: 14px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .btn1 , .btn2{
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+     /* section2 */
+     .heading2{
+        margin-left: 0px !important;
+        text-align: center !important;
+    }
+    .slidingpart{
+        margin-top: 34px;
+        margin-bottom: 34px;
+    }
+    .slider{
+        height: 99px;
+        width: 90%;
+    }
+    .images{
+        width: 100%;
+        transition: tranform 2s;
+    }
+    .images:hover{
+        transform: translateZ(5px);
+    }
+    .slide{
+        height: 59px;
+        width: 100px;
+        margin-right: 15px;
+    }
+     /* section-4 */
+  .section4{
+    width: 100%;
+    height: auto;
+}
+.section4 h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-left{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 15px;
+padding-bottom: 12px;
+}
+.box-right{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 15px;
+padding-bottom: 12px;
+}
+.leftp{
+font-size: 12px;
+}
+.point{
+    display: flex;
+    align-items: center;
+}
+}
+@media screen and (min-device-width: 412px) and (max-device-width: 740px) { 
+
+    .logo{
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 50px;
+    height: 55px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    }
+    .navigation{
+        height: 95px;
+    }
+    h1{
+        margin-top: 15px !important;
+        font-size: 14px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .btn1 , .btn2{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+     /* section2 */
+     .heading2{
+        margin-left: 0px !important;
+        text-align: center !important;
+    }
+    .slidingpart{
+        margin-top: 34px;
+        margin-bottom: 34px;
+    }
+    .slider{
+        height: 99px;
+        width: 90%;
+    }
+    .images{
+        width: 100%;
+        transition: tranform 2s;
+    }
+    .images:hover{
+        transform: translateZ(5px);
+    }
+    .slide{
+        height: 59px;
+        width: 100px;
+        margin-right: 15px;
+    }
+     /* section-4 */
+  .section4{
+    width: 100%;
+    height: auto;
+}
+.section4 h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-left{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 10px;
+padding-bottom: 28px;
+margin-bottom: 20px;
+}
+.box-right{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 10px;
+padding-bottom: 10px;
+}
+.leftp{
+font-size: 12px;
+
+}
+}
+@media screen and (min-device-width: 412px) and (max-device-width: 846px) { 
+
+    .logo{
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 50px;
+    height: 55px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    }
+    .navigation{
+        height: 100px;
+    }
+    h1{
+        margin-top: 15px !important;
+        font-size: 16px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .btn1 , .btn2{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+     /* section2 */
+     .heading2{
+        margin-left: 0px !important;
+        text-align: center !important;
+    }
+    .slidingpart{
+        margin-top: 34px;
+        margin-bottom: 34px;
+    }
+    .slider{
+        height: 99px;
+        width: 90%;
+    }
+    .images{
+        width: 100%;
+        transition: tranform 2s;
+    }
+    .images:hover{
+        transform: translateZ(5px);
+    }
+    .slide{
+        height: 59px;
+        width: 100px;
+        margin-right: 15px;
+    }
+    /* section-4 */
+  .section4{
+    width: 100%;
+    height: auto;
+}
+.section4 h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-left{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 10px;
+padding-bottom: 28px;
+margin-bottom: 20px;
+}
+.box-right{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 10px;
+padding-bottom: 10px;
+}
+.leftp{
+font-size: 12px;
+
+}
+}
+@media screen and (min-device-width: 480px) and (max-device-width: 768px) { 
+
+    .logo{
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 50px;
+    height: 55px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    }
+    .navigation{
+        height: 100px;
+    }
+    h1{
+        margin-top: 10px !important;
+        font-size: 16px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .btn1 , .btn2{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+     /* section2 */
+     .heading2{
+        margin-left: 0px !important;
+        text-align: center !important;
+    }
+    .slidingpart{
+        margin-top: 34px;
+        margin-bottom: 34px;
+    }
+    .slider{
+        height: 99px;
+        width: 90%;
+    }
+    .images{
+        width: 100%;
+        transition: tranform 2s;
+    }
+    .images:hover{
+        transform: translateZ(5px);
+    }
+    .slide{
+        height: 59px;
+        width: 100px;
+        margin-right: 15px;
+    }
+     /* section-4 */
+  .section4{
+    width: 100%;
+    height: auto;
+}
+.section4 h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-left{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 10px;
+padding-bottom: 28px;
+margin-bottom: 20px;
+}
+.box-right{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 10px;
+padding-bottom: 10px;
+}
+.leftp{
+font-size: 12px;
+
+}
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+
+    .section1{
+        height: auto;
+    }
+    .navigation{
+        height: 100px;
+    }
+    .logo{
+        margin-left: 40px;
+        margin-top: 5px;
+        width: 60px;
+    height: 75px;
+    flex-shrink: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    }
+    h1{
+        margin-top: 30px !important;
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .btn1 , .btn2{
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+       
+    }
+    .loginbtn{
+        margin-left: 10px;
+    }
+    .loginbtn , .signupbtn{
+        width: 80px;
+        height: 35px;
+        margin-left: 0px !important;
+        font-size: 12px;
+    }
+     /* section2 */
+     .heading2{
+        margin-left: 0px !important;
+        text-align: center !important;
+    }
+    .slidingpart{
+        margin-top: 44px;
+        margin-bottom: 44px;
+    }
+    .slider{
+        height: 109px;
+        width: 90%;
+    }
+    .images{
+        width: 100%;
+        transition: tranform 2s;
+    }
+    .images:hover{
+        transform: translateZ(5px);
+    }
+    .slide{
+        height: 69px;
+        width: 110px;
+        margin-right: 15px;
+    }
+     /* section-4 */
+  .section4{
+    width: 100%;
+    height: auto;
+}
+.section4 h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-left{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 10px;
+padding-bottom: 28px;
+margin-bottom: 20px;
+}
+.box-right{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 10px;
+padding-bottom: 10px;
+}
+.leftp{
+font-size: 14px;
+
+}
+}
+@media screen and (min-device-width: 1024px) and (max-device-width: 1200px) { 
+
+    .logo{
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 60px;
+    height: 65px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    }
+    
+     /* section2 */
+     .heading2{
+        margin-left: 0px !important;
+        text-align: center !important;
+    }
+    .slidingpart{
+        margin-top: 44px;
+        margin-bottom: 44px;
+    }
+    .slider{
+        height: 99px;
+        width: 90%;
+    }
+    .images{
+        width: 100%;
+        transition: tranform 2s;
+    }
+    .images:hover{
+        transform: translateZ(5px);
+    }
+    .slide{
+        height: 99px;
+        width: 240px;
+        margin-right: 24px;
+    }
+     /* section-4 */
+  .section4{
+    width: 100%;
+    height: auto;
+}
+.section4 h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-left{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 15px;
+padding-bottom: 15px;
+margin-bottom: 20px;
+}
+.box-right{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 15px;
+padding-bottom: 30px;
+}
+.leftp{
+font-size: 14px;
+
+}
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1920px) { 
+
+    /* .logo{
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    } */
+    .section1{
+        height: auto;
+    }
+    .btn1 , .btn2{
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+       
+    }
+
+    /* section2 */
+    .heading2{
+        margin-left: 0px !important;
+        text-align: center !important;
+    }
+}
+@media only screen and (max-device-width: 480px) {
+
+    .logo{
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 50px;
+    height: 55px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    }
+    .navigation{
+        height: 85px;
+    }
+     /* section2 */
+     .heading2{
+        margin-left: 0px !important;
+        text-align: center !important;
+    }
+    .slidingpart{
+        margin-top: 34px;
+        margin-bottom: 34px;
+    }
+    .slider{
+        height: 99px;
+        width: 90%;
+    }
+    .images{
+        width: 100%;
+        transition: tranform 2s;
+    }
+    .images:hover{
+        transform: translateZ(5px);
+    }
+    .slide{
+        height: 59px;
+        width: 100px;
+        margin-right: 15px;
+    }
+     /* section-4 */
+  .section4{
+    width: 100%;
+    height: auto;
+}
+.section4 h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-left{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 10px;
+padding-bottom: 28px;
+margin-bottom: 20px;
+}
+.box-right{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 10px;
+padding-bottom: 10px;
+}
+.leftp{
+font-size: 12px;
+
+}
+}
+@media only screen and (max-device-width: 480px) {
+    
+    .logo{
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 50px;
+    height: 55px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    }
+    .navigation{
+        height: 85px;
+    }
+     /* section2 */
+     .heading2{
+        margin-left: 0px !important;
+        text-align: center !important;
+    }
+    .slidingpart{
+        margin-top: 34px;
+        margin-bottom: 34px;
+    }
+    .slider{
+        height: 99px;
+        width: 90%;
+    }
+    .images{
+        width: 100%;
+        transition: tranform 2s;
+    }
+    .images:hover{
+        transform: translateZ(5px);
+    }
+    .slide{
+        height: 59px;
+        width: 100px;
+        margin-right: 15px;
+    }
+     /* section-4 */
+  .section4{
+    width: 100%;
+    height: auto;
+}
+.section4 h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-left{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 10px;
+padding-bottom: 28px;
+margin-bottom: 20px;
+}
+.box-right{
+  width: auto;
+height: auto;
+margin-top: 25px;
+padding-left: 10px;
+padding-bottom: 10px;
+}
+.leftp{
+font-size: 12px;
+
+}
+}
+@media only screen and (max-device-width:1024px) {
+    
+}
+@media only screen and (max-device-width:1280px) {
+
+  /* STYLES HERE */
+}
+
+@media screen and (min-width: 1920px) {
+    /* STYLES HERE */
+}
+
+
